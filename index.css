@@ -1,0 +1,113 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+header {
+    padding: 20px;
+    background-color: #00a3df;
+    color: white;
+}
+
+footer {
+    padding: 7px;
+    background-color: #00a3df;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 265px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card-numbers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.bingo-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    margin: 5px;
+    line-height: 30px;
+}
+
+.free-space {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 5px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border-radius: 20px;
+    color: #252525;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.marked {
+    background-color: rgba(243, 0, 0, 0.786);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#bingo-numbers {
+    position: relative;
+    margin-top: 12%;
+}
+
+#message-container {
+    margin-top: 10%;
+    position: static;
+    left: 0;
+    right: 0;
+    color: rgb(0, 184, 0);
+}
