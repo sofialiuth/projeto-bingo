@@ -1,4 +1,4 @@
-#Bingo
+# Bingo
 
-+ALUNA: Sofia Liuth Costa
-+MATRÍCULA: 
++ ALUNA: Sofia Liuth Costa
++ MATRÍCULA: 202305438
